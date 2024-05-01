@@ -1,10 +1,10 @@
 <script>
 import { useFetch } from '@/composables/useFetch.js'
-import ProductCategory from '@/components/Categories.vue'
+import Categories from '@/components/Categories.vue'
 
 export default {
   name: 'IndexView',
-  components: { ProductCategory },
+  components: { Categories },
 
   props: ['city_id'],
 
@@ -35,7 +35,7 @@ export default {
 </script>
 
 <template>
-  <ProductCategory />
+  <Categories />
 </template>
 
 <style scoped></style>

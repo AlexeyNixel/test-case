@@ -22,7 +22,7 @@ export default defineComponent({
     }
   },
 
-  mounted() {
+  created() {
     this.getCity()
   },
 
